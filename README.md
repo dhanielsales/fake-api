@@ -98,5 +98,3 @@ Usamos `_embed` tanto para trazer filhos quanto para trazer pais.
 
 - **Trazer Categoria com seus Produtos (Filhos):**
   `GET /categories/1?_embed=products`
-
----
