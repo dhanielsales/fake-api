@@ -1,0 +1,528 @@
+{
+  "categories": [
+    { "id": 1, "name": "Smartphones", "slug": "smartphones" },
+    { "id": 2, "name": "Notebooks", "slug": "notebooks" },
+    { "id": 3, "name": "Tablets", "slug": "tablets" },
+    { "id": 4, "name": "Fones de Ouvido", "slug": "fones-de-ouvido" },
+    { "id": 5, "name": "Câmeras", "slug": "cameras" },
+    { "id": 6, "name": "Consoles", "slug": "consoles" },
+    { "id": 7, "name": "Televisores", "slug": "televisores" },
+    { "id": 8, "name": "Smartwatches", "slug": "smartwatches" },
+    { "id": 9, "name": "Periféricos", "slug": "perifericos" },
+    { "id": 10, "name": "Casa Inteligente", "slug": "casa-inteligente" }
+  ],
+  "brands": [
+    { "id": 1, "name": "TechGiant", "country": "EUA" },
+    { "id": 2, "name": "GalaxyTech", "country": "Coreia do Sul" },
+    { "id": 3, "name": "NordicSound", "country": "Suécia" },
+    { "id": 4, "name": "Visionary", "country": "Japão" },
+    { "id": 5, "name": "GameMaster", "country": "Japão" },
+    { "id": 6, "name": "SpeedComp", "country": "Taiwan" },
+    { "id": 7, "name": "FutureWear", "country": "China" },
+    { "id": 8, "name": "HomeLife", "country": "Alemanha" },
+    { "id": 9, "name": "PixelPerfect", "country": "Holanda" },
+    { "id": 10, "name": "ConnectPlus", "country": "Brasil" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Smart TV 4K Lite 15",
+      "price": 1992.07,
+      "description": "Este é um excelente televisores da marca NordicSound. Alta performance e durabilidade.",
+      "categoryId": 7,
+      "brandId": 3,
+      "inStock": true,
+      "rating": 3.5
+    },
+    {
+      "id": 2,
+      "title": "Slate X Lite 12",
+      "price": 2316.18,
+      "description": "Este é um excelente tablets da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 3,
+      "brandId": 8,
+      "inStock": false,
+      "rating": 4.4
+    },
+    {
+      "id": 3,
+      "title": "Relógio Sport Lite 14",
+      "price": 330.73,
+      "description": "Este é um excelente smartwatches da marca NordicSound. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 3,
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 4,
+      "title": "Watch Series S 15",
+      "price": 2922.57,
+      "description": "Este é um excelente smartwatches da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 5,
+      "inStock": false,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "title": "Headset Gamer Max 14",
+      "price": 677.74,
+      "description": "Este é um excelente fones de ouvido da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 3.7
+    },
+    {
+      "id": 6,
+      "title": "Monitor Curvo Ultra 3",
+      "price": 2886.86,
+      "description": "Este é um excelente televisores da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 7,
+      "brandId": 7,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "title": "Laptop Air S 2",
+      "price": 1057.07,
+      "description": "Este é um excelente notebooks da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 2,
+      "brandId": 5,
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 8,
+      "title": "Câmera DSLR Pro 10",
+      "price": 3018.04,
+      "description": "Este é um excelente câmeras da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 5,
+      "brandId": 9,
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 9,
+      "title": "Earbuds True Wireless Prime 8",
+      "price": 412.26,
+      "description": "Este é um excelente fones de ouvido da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 7,
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "title": "Câmera de Segurança Prime 8",
+      "price": 4725.7,
+      "description": "Este é um excelente casa inteligente da marca Visionary. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 4,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "title": "Tomada Wi-Fi Max 2",
+      "price": 3287.37,
+      "description": "Este é um excelente casa inteligente da marca TechGiant. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 1,
+      "inStock": false,
+      "rating": 3.9
+    },
+    {
+      "id": 12,
+      "title": "Earbuds True Wireless Max 4",
+      "price": 4319.43,
+      "description": "Este é um excelente fones de ouvido da marca TechGiant. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 1,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 13,
+      "title": "Mouse RGB Slim 7",
+      "price": 2884.42,
+      "description": "Este é um excelente periféricos da marca Visionary. Alta performance e durabilidade.",
+      "categoryId": 9,
+      "brandId": 4,
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 14,
+      "title": "Console Station S 4",
+      "price": 1376.02,
+      "description": "Este é um excelente consoles da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 6,
+      "brandId": 9,
+      "inStock": false,
+      "rating": 3.5
+    },
+    {
+      "id": 15,
+      "title": "Lâmpada Smart Slim 14",
+      "price": 392.17,
+      "description": "Este é um excelente casa inteligente da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 8,
+      "inStock": false,
+      "rating": 3.1
+    },
+    {
+      "id": 16,
+      "title": "Earbuds True Wireless Air 5",
+      "price": 3340.76,
+      "description": "Este é um excelente fones de ouvido da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 9,
+      "inStock": true,
+      "rating": 4.0
+    },
+    {
+      "id": 17,
+      "title": "Mirrorless Cam S 1",
+      "price": 4542.68,
+      "description": "Este é um excelente câmeras da marca NordicSound. Alta performance e durabilidade.",
+      "categoryId": 5,
+      "brandId": 3,
+      "inStock": true,
+      "rating": 4.2
+    },
+    {
+      "id": 18,
+      "title": "Band Fit X 13",
+      "price": 1268.12,
+      "description": "Este é um excelente smartwatches da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 5,
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 19,
+      "title": "Gaming Laptop X 13",
+      "price": 1547.28,
+      "description": "Este é um excelente notebooks da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 2,
+      "brandId": 5,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 20,
+      "title": "Smart TV 4K Slim 14",
+      "price": 727.44,
+      "description": "Este é um excelente televisores da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 7,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 3.9
+    },
+    {
+      "id": 21,
+      "title": "Fone Noise Cancel S 5",
+      "price": 4595.47,
+      "description": "Este é um excelente fones de ouvido da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 22,
+      "title": "Console Station Lite 1",
+      "price": 2785.56,
+      "description": "Este é um excelente consoles da marca Visionary. Alta performance e durabilidade.",
+      "categoryId": 6,
+      "brandId": 4,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 23,
+      "title": "Laptop Air Ultra 13",
+      "price": 193.05,
+      "description": "Este é um excelente notebooks da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 2,
+      "brandId": 9,
+      "inStock": true,
+      "rating": 3.0
+    },
+    {
+      "id": 24,
+      "title": "Earbuds True Wireless Gamer 11",
+      "price": 2063.08,
+      "description": "Este é um excelente fones de ouvido da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 7,
+      "inStock": true,
+      "rating": 3.1
+    },
+    {
+      "id": 25,
+      "title": "Tablet Tab X 2",
+      "price": 1629.81,
+      "description": "Este é um excelente tablets da marca GalaxyTech. Alta performance e durabilidade.",
+      "categoryId": 3,
+      "brandId": 2,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 26,
+      "title": "Assistente de Voz Gamer 7",
+      "price": 2691.47,
+      "description": "Este é um excelente casa inteligente da marca NordicSound. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 3,
+      "inStock": true,
+      "rating": 5.0
+    },
+    {
+      "id": 27,
+      "title": "Smartphone X Slim 14",
+      "price": 3549.73,
+      "description": "Este é um excelente smartphones da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 7,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 28,
+      "title": "Tomada Wi-Fi Max 1",
+      "price": 4861.39,
+      "description": "Este é um excelente casa inteligente da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 8,
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 29,
+      "title": "TV OLED Max 4",
+      "price": 1870.6,
+      "description": "Este é um excelente televisores da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 7,
+      "brandId": 7,
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 30,
+      "title": "Android One Lite 6",
+      "price": 479.11,
+      "description": "Este é um excelente smartphones da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 9,
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 31,
+      "title": "Headphone Bass S 13",
+      "price": 1020.66,
+      "description": "Este é um excelente fones de ouvido da marca TechGiant. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 1,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 32,
+      "title": "Pulseira Smart X 7",
+      "price": 4801.28,
+      "description": "Este é um excelente smartwatches da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 5,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 33,
+      "title": "Android One Air 9",
+      "price": 1749.76,
+      "description": "Este é um excelente smartphones da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 3.7
+    },
+    {
+      "id": 34,
+      "title": "Smart TV 4K Max 6",
+      "price": 4270.22,
+      "description": "Este é um excelente televisores da marca GalaxyTech. Alta performance e durabilidade.",
+      "categoryId": 7,
+      "brandId": 2,
+      "inStock": true,
+      "rating": 3.7
+    },
+    {
+      "id": 35,
+      "title": "Phone Galaxy Air 12",
+      "price": 2743.16,
+      "description": "Este é um excelente smartphones da marca TechGiant. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 1,
+      "inStock": false,
+      "rating": 3.2
+    },
+    {
+      "id": 36,
+      "title": "Console Station Max 13",
+      "price": 4990.26,
+      "description": "Este é um excelente consoles da marca SpeedComp. Alta performance e durabilidade.",
+      "categoryId": 6,
+      "brandId": 6,
+      "inStock": true,
+      "rating": 3.1
+    },
+    {
+      "id": 37,
+      "title": "Android One S 2",
+      "price": 4656.81,
+      "description": "Este é um excelente smartphones da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 3.1
+    },
+    {
+      "id": 38,
+      "title": "Câmera de Segurança Lite 12",
+      "price": 982.32,
+      "description": "Este é um excelente casa inteligente da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 8,
+      "inStock": true,
+      "rating": 3.7
+    },
+    {
+      "id": 39,
+      "title": "Câmera de Segurança Prime 11",
+      "price": 4627.17,
+      "description": "Este é um excelente casa inteligente da marca TechGiant. Alta performance e durabilidade.",
+      "categoryId": 10,
+      "brandId": 1,
+      "inStock": true,
+      "rating": 5.0
+    },
+    {
+      "id": 40,
+      "title": "Relógio Sport X 1",
+      "price": 3616.06,
+      "description": "Este é um excelente smartwatches da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 8,
+      "inStock": true,
+      "rating": 3.7
+    },
+    {
+      "id": 41,
+      "title": "Watch Series Pro 14",
+      "price": 849.08,
+      "description": "Este é um excelente smartwatches da marca PixelPerfect. Alta performance e durabilidade.",
+      "categoryId": 8,
+      "brandId": 9,
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 42,
+      "title": "Tablet Tab Max 5",
+      "price": 257.72,
+      "description": "Este é um excelente tablets da marca GalaxyTech. Alta performance e durabilidade.",
+      "categoryId": 3,
+      "brandId": 2,
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 43,
+      "title": "Ultrabook S 1",
+      "price": 2422.23,
+      "description": "Este é um excelente notebooks da marca ConnectPlus. Alta performance e durabilidade.",
+      "categoryId": 2,
+      "brandId": 10,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 44,
+      "title": "Mouse RGB S 12",
+      "price": 1450.36,
+      "description": "Este é um excelente periféricos da marca HomeLife. Alta performance e durabilidade.",
+      "categoryId": 9,
+      "brandId": 8,
+      "inStock": true,
+      "rating": 3.8
+    },
+    {
+      "id": 45,
+      "title": "Earbuds True Wireless Air 5",
+      "price": 1873.03,
+      "description": "Este é um excelente fones de ouvido da marca SpeedComp. Alta performance e durabilidade.",
+      "categoryId": 4,
+      "brandId": 6,
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 46,
+      "title": "Slate X Pro 12",
+      "price": 1588.28,
+      "description": "Este é um excelente tablets da marca FutureWear. Alta performance e durabilidade.",
+      "categoryId": 3,
+      "brandId": 7,
+      "inStock": true,
+      "rating": 3.6
+    },
+    {
+      "id": 47,
+      "title": "Phone Galaxy Air 9",
+      "price": 1381.16,
+      "description": "Este é um excelente smartphones da marca Visionary. Alta performance e durabilidade.",
+      "categoryId": 1,
+      "brandId": 4,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 48,
+      "title": "Mouse RGB Max 12",
+      "price": 284.95,
+      "description": "Este é um excelente periféricos da marca GameMaster. Alta performance e durabilidade.",
+      "categoryId": 9,
+      "brandId": 5,
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 49,
+      "title": "Controller Pro Air 4",
+      "price": 812.57,
+      "description": "Este é um excelente consoles da marca SpeedComp. Alta performance e durabilidade.",
+      "categoryId": 6,
+      "brandId": 6,
+      "inStock": true,
+      "rating": 3.5
+    },
+    {
+      "id": 50,
+      "title": "Microfone Studio Slim 6",
+      "price": 782.13,
+      "description": "Este é um excelente periféricos da marca NordicSound. Alta performance e durabilidade.",
+      "categoryId": 9,
+      "brandId": 3,
+      "inStock": true,
+      "rating": 3.7
+    }
+  ]
+}
