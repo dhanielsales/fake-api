@@ -4,7 +4,7 @@ Oii :) Esta é uma API REST simulada, projetada para te ajudar nos estudos de **
 
 Voce pode encontrar o repositório do `json-server` aqui: [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
 
-## 🚀 Como Iniciar
+## Como Iniciar
 
 ### 1. Instalação
 
