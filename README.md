@@ -43,6 +43,14 @@ A URL base é: `http://localhost:3001`
 
 ### 1. Filtros Básicos e Operadores
 
+Condições:
+
+- `lt` → < (Menor que)
+- `lte` → <= (Menor ou igual a)
+- `gt` → > (Maior que)
+- `gte` → >= (Maior ou igual a)
+- `ne` → != (Diferente de)
+
 - **Filtro Exato:**
   `GET /products?categoryId=1`
 - **Maior que (`_gt`):** Preço maior que 500
@@ -51,6 +59,15 @@ A URL base é: `http://localhost:3001`
   `GET /products?price_lt=100`
 - **Diferente de (`_ne`):** Todos exceto categoria 1
   `GET /products?categoryId_ne=1`
+- **Múltiplos Filtros:** Categoria 2 e preço menor que 300
+  `GET /products?categoryId=2&price_lt=300`
+
+Campos aninhados:
+
+- x.y.z...
+
+- **Filtro em Campo Aninhado:** Produtos onde o nome da categoria é "Notebooks"
+  `GET /products?categories.name=Notebooks`
 
 ### 2. Ordenação (`_sort`)
 
