@@ -51,6 +51,8 @@ Condições:
 - `gte` → >= (Maior ou igual a)
 - `ne` → != (Diferente de)
 
+#
+
 - **Filtro Exato:**
   `GET /products?categoryId=1`
 - **Maior que (`_gt`):** Preço maior que 500
