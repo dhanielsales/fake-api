@@ -98,3 +98,81 @@ Usamos `_embed` tanto para trazer filhos quanto para trazer pais.
 
 - **Trazer Categoria com seus Produtos (Filhos):**
   `GET /categories/1?_embed=products`
+
+<br>
+
+# Exercicio de React
+
+Seu objetivo é criar uma aplicação React que consuma a a API Fake. O foco é manipular dados, filtros e navegação. Fique à vontade para usar qualquer versão do React ou bibliotecas auxiliares (Axios, etc).
+
+## Parte 1: A Tela de Listagem (`/`)
+
+Esta será a página inicial. Ela deve ser capaz de buscar dados do servidor e filtrar dinamicamente.
+
+### 📋 Requisitos da Interface
+
+1.  **Tabela de Produtos:**
+
+    - Deve exibir colunas: ID, Titulo, Preço, ID da Categoria, ID da Marca e um botão "Ver Detalhes".
+
+2.  **Barra de Filtros (Acima da tabela):**
+    - **Categoria:** Um componente de `Select` ou `Autocomplete` carregado com as categorias da API (`/categories`).
+    - **Marca:** Um componente de `Select` ou `Autocomplete` carregado com as marcas da API (`/brands`).
+    - **Preço:** Dois inputs numéricos: "Preço Mínimo" e "Preço Máximo". (_Dica: use os operadores `gte` e `lte` da API_).
+
+### Lógica
+
+Sempre que o usuário alterar um filtro ou digitar na busca, a tabela deve atualizar automaticamente (ou ao clicar em um botão "Filtrar").
+
+**Como montar a URL da API:**
+Você precisará combinar vários parâmetros.
+
+- **Categoria:** `categoryId=1`
+- **Marca:** `brandId=2`
+- **Preço Mínimo:** `price_gte=100` (Greater Than or Equal)
+- **Preço Máximo:** `price_lte=500` (Less Than or Equal)
+
+**Exemplo de URL final:**
+`http://localhost:3001/products?categoryId=1&price_gte=1000&price_lte=5000`
+
+---
+
+## Parte 2: A Tela de Detalhes (`/produto/:id`)
+
+Ao clicar no botão "Ver Detalhes" na tabela, o usuário deve ser levado para esta tela.
+
+### 📋 Requisitos da Interface
+
+1.  **Botão Voltar:** Um link ou botão para voltar para a listagem (`/`).
+2.  **Layout:**
+    - Exibir todos os dados do produto: ID, Titulo, Descrição, Preço, ID da Categoria, ID da Marca, Em Estoque e Avaliação.
+    - Exibir uma seção com os dados da **Marca** e **Categoria** com seus respectivos nomes e descrições e todos os outros campos.
+
+### Lógica
+
+1.  Faça um fetch para buscar **apenas** aquele produto. (`/products/:id`)
+2.  Use o recurso de `_embed` para trazer os dados completos da marca e categoria em uma única chamada.
+
+**URL da API para detalhes:**
+`http://localhost:3001/products/1?_embed=category&_embed=brand`
+
+## Bônus (Opcional)
+
+Se quiser se desafiar mais, implemente essas funcionalidades extras:
+
+1.  **Debounce na Busca:** Pesquise sobre `debounce` e faça com que a busca por texto só dispare a requisição 500ms depois que o usuário parar de digitar (para não chamar a API a cada letra).
+2.  **Feedback de "Nenhum produto encontrado":** Se os filtros não retornarem nada, mostre uma mensagem amigável.
+
+## Dicas
+
+### Formatando Dinheiro
+
+Use o `Intl` nativo do navegador para formatar valores monetários em Real (BRL):
+
+```javascript
+new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(
+  valor
+);
+```
+
+substitua `valor` pela variável que contém o número que você quer formatar.
