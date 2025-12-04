@@ -1,4 +1,4 @@
-# 🛒 API Fake
+# API Fake
 
 Oii :) Esta é uma API REST simulada, projetada para te ajudar nos estudos de **React** e consumo de dados. Ela utiliza o `json-server` para fornecer um backend fake.
 
